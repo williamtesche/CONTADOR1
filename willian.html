@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="three-container">
+                <h1>CoNtAdOr</h1>
+                <p id="contador"> 0</p>
+               <button class="button" id="clicar1">clicar+</button>
+               <button class="button" id="zerar">zerar</button>
+               <button class="button" id="clicar2">clicar-</button>
+            </div>
+        </div>
+       
+    </div>
+
+    <script>
+        const clicar1 = document.getElementById("clicar1")
+        const clicar2 = document.getElementById("clicar2")
+        const zerar = document.getElementById("zerar")
+        const p = document.getElementById("contador")
+
+
+        let contador = p.innerHTML
+        contador = 0;
+
+
+        clicar1.addEventListener('click',function() {
+            p.innerHTML = ++contador;
+        })
+
+
+        clicar2.addEventListener('click',function() {
+            p.innerHTML = --contador;
+        })
+
+        zerar.addEventListener('click',function() {
+            p.innerHTML = contador = 0;
+         
+        })
+
+
+    </script>
+</body>
+</html>

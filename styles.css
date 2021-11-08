@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-origin: padding-box;
+    margin-top:auto;
+    margin-left: 36%;
+    height: 50px;
+    position: relative;
+    top: 32vh;
+}
+html{
+    height: 100vh;
+    background-image: linear-gradient(rgb(87, 73, 73), rgb(26, 26, 24));
+}
+
+
+.container{
+border: 1px solid rgb(255, 0, 0);
+width: 300px;
+font-family: 'Mochiy Pop P One', sans-serif;
+text-align: center;
+place-content: center;
+border-radius: 3px;
+background-image: linear-gradient(rgb(87, 73, 73), rgb(26, 26, 24));
+}
+
+.inner-container{
+    border: 2.1px solid rgb(7, 7, 7);
+    border-radius: 1px;
+    color: rgb(10, 10, 9);
+}
+.three-container{
+    border: 2.1px solid rgb(245, 0, 0);
+    border-radius: 1px;
+}
+
+#contador{
+    font-size: 30px;
+    color:gray;
+    
+}
+.button{
+    margin:0px;
+    color: rgb(136, 255, 0);
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: rgb(144, 209, 24);
+}
